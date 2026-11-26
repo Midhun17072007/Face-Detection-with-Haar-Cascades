@@ -1,6 +1,6 @@
 # Face Detection using Haar Cascades with OpenCV and Matplotlib
-## Name : AJAYRAJA RATHINAM T
-## Reg No : 212224240006
+## Name : MIDHUN S
+## Reg No : 212224230158
 ## Aim
 
 To write a Python program using OpenCV to perform the following image manipulations:  
@@ -61,7 +61,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 # Step 1: Read the image and convert the image into RGB
-image = cv2.imread('naveen.jpeg')  # Replace with your image path
+image = cv2.imread('midhun.jpg')  # Replace with your image path
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 # Step 2: Display the original image
 plt.imshow(image_rgb)
@@ -90,7 +90,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 # Step 1: Read the image and convert it to RGB for displaying
-image = cv2.imread('dipt.jpeg')  # Replace with your actual image file path
+image = cv2.imread('midhun.jpeg')  # Replace with your actual image file path
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)  # Convert BGR to RGB
 # Original Image
 plt.imshow(image_rgb)
@@ -135,7 +135,7 @@ class_labels = {0: 'background', 1: 'aeroplane', 2: 'bicycle', 3: 'bird', 4: 'bo
                 12: 'dog', 13: 'horse', 14: 'motorbike', 15: 'person', 16: 'pottedplant', 17: 'sheep',
                 18: 'sofa', 19: 'train', 20: 'tvmonitor'}
 # Step 5: Read the image
-image = cv2.imread('itac.jpeg')  # Replace with your image path
+image = cv2.imread('midhun.jpeg')  # Replace with your image path
 (h, w) = image.shape[:2]
 # Convert image to RGB for displaying with Matplotlib
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
@@ -165,31 +165,35 @@ plt.show()
 ## OUTPUT
 
 ### Original Image
-<img width="389" height="534" alt="image" src="https://github.com/user-attachments/assets/39781bd2-b20b-4e79-80d8-dfcdc908311f" />
+<img width="610" height="373" alt="image" src="https://github.com/user-attachments/assets/c739bec4-3375-4548-add8-5a7e756bea09" />
+
 
 
 
 ### Segmented ROI
 
-<img width="334" height="505" alt="image" src="https://github.com/user-attachments/assets/5eacd4ef-58b3-433f-842d-873085ba0256" />
-
+<img width="555" height="340" alt="image" src="https://github.com/user-attachments/assets/3cdfeaa5-0cca-4dba-b051-a33b43484d7c" />
 
 
 ### Original Image
-<img width="348" height="505" alt="image" src="https://github.com/user-attachments/assets/b425b677-4569-4ea1-8117-d6950f48b0f5" />
+<img width="556" height="337" alt="image" src="https://github.com/user-attachments/assets/ec1dbfe7-9e59-4fc2-8e64-289c8e23f342" />
+
 
 ### Canny Edge Detection
 
-<img width="325" height="504" alt="image" src="https://github.com/user-attachments/assets/3189614d-c6e6-491c-8f3e-188202a58e00" />
+<img width="602" height="378" alt="image" src="https://github.com/user-attachments/assets/de9f6892-4cde-4beb-bbfb-20bc5ce9d49e" />
+
 
 
 ### Handwriting Detection
-<img width="327" height="504" alt="image" src="https://github.com/user-attachments/assets/28022eb3-2ee7-4767-82d6-1f10ac349182" />
+<img width="597" height="368" alt="image" src="https://github.com/user-attachments/assets/9faa239c-e74e-4a5b-ab56-48bfd5cb5c6e" />
+
 
 
 ### Object Detection with MobileNet-SSD
 
-<img width="408" height="501" alt="image" src="https://github.com/user-attachments/assets/4607df94-668a-4602-8314-579bc8decbc3" />
+<img width="555" height="347" alt="image" src="https://github.com/user-attachments/assets/a832bdf7-c72d-4cbb-b42a-0bb96af1cc89" />
+
 
 
 ## RESULT
